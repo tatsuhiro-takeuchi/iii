@@ -1,0 +1,215 @@
+header h1{
+  z-index:9;
+  position:absolute;
+  color:white;
+  margin:auto;
+  writing-mode:vertical-rl;
+}
+
+#Profile{
+  position:absolute;
+  color:white;
+  z-index:9;
+  font-size:50px;
+  top:30%;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+  cursor: pointer;
+  animation-name:slide1;
+  animation-duration:13s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  animation-delay:5s;
+}
+@keyframes slide1{
+  0%{
+    top:30%;
+    left:0px
+  }
+  30%{
+    top:0%;
+    left:40%;
+    color:#000000;
+    font-size:100px;
+  }
+  80%{
+    top:90%;
+    left:93%;
+    color:skyblue;
+  }
+  85%{
+    top:50%;
+    left:45%;
+    color:yellow;
+  }
+  100%{
+    top:30%;
+    left:0px;
+  }}
+
+#Skill{
+  position:absolute;
+  color:white;
+  z-index:9;
+  font-family:'Courier New', Courier, monospace;
+  font-size:50px;
+  top:50%;
+  font-weight: bold;
+  cursor: pointer;
+  animation-name:slide2;
+  animation-duration:13s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  animation-delay:5s;
+}
+@keyframes slide2{
+  0%{
+    top:50%;
+    left:0px
+  }
+  50%{
+    font-size:100px;
+    top:80%;
+    left:40%;
+    color:gray;
+  }
+  65%{
+    top:70%;
+    left:50%;
+    color:greenyellow;
+  }
+  87%{
+    top:0%;
+    left:20%;
+    color:gold;
+  }
+  100%{
+    top:50%;
+    left:0px;
+  }}
+
+
+#Portfolio{
+  position:absolute;
+  color:white;
+  z-index:9;
+  font-size:50px;
+  top:70%;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+  cursor: pointer;
+  animation-name:slide3;
+  animation-duration:13s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  animation-delay:5s;
+  }
+  @keyframes slide3{
+    0%{
+      top:70%;
+      left:0px
+    }
+    45%{
+      top:50%;
+      left:70%;
+      color:cyan;
+    }
+    60%{
+      top:20%;
+      left:40%;
+      color:cornflowerblue;
+    }
+    90%{
+      top:0%;
+      left:80%;
+      color:chocolate;
+      font-size:100px;
+    }
+    100%{
+      top:70%;
+      left:0px;
+    }}
+
+
+#Contact-Form{
+  position:absolute;
+  color:white;
+  z-index:9;
+  font-size:50px;
+  top:90%;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+  cursor: pointer;
+  animation-name:slide4;
+  animation-duration:13s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  animation-delay:5s;
+}
+@keyframes slide4{
+  0%{
+    top:90%;
+    left:0px
+  }
+  40%{
+    top:20%;
+    left:30%;
+    color:orange;
+    font-size:100px;
+  }
+  70%{
+    top:60%;
+    left:70%;
+    color:orchid;
+  }
+  85%{
+    top:30%;
+    left:10%;
+    color:honeydew;
+  }
+  100%{
+    top:90%;
+    left:0px;
+  }}
+
+
+#Profile2{
+  display: none;
+  z-index:9;
+  top:10%;
+  left:10%;
+  height:80%;
+  width:80%;
+  padding:20px;
+  background-color: honeydew;
+  margin:auto;
+  position: absolute;
+  border-radius: 10px;;
+}
+
+#Profile2 h2{
+  font-size:50px;
+  font-weight: bold;
+  font-family:'Courier New', Courier, monospace;
+  border-bottom:5px solid orange;
+}
+
+#Profile2 img{
+  display:inline-block;
+  height:50%;
+  float:left;
+}
+
+#Profile2 p{
+  font-weight:bold;
+  font-size:20px;
+  left:10px;
+}
+
+.lazyload{
+  top:0;
+  position:absolute;
+  z-index:8;
+}
+
+if(#Profile.check){};
